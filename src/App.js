@@ -1,8 +1,13 @@
 import React from 'react';
+import UpcomingFilms from './containers/UpcommingFilms.js';
 import './App.css';
 
 function App() {
-	return <div className='App'>Hello World!</div>;
+	return (
+		<>
+			<UpcomingFilms />
+		</>
+	);
 }
 
 export default App;
