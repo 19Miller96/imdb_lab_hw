@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Film = () => {
+const Film = ({ name, url }) => {
 	return (
 		<>
-			<p>This will be a film</p>
+			<a href={url}> {name}</a>
 		</>
 	);
 };
