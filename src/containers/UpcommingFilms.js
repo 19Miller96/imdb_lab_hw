@@ -34,7 +34,9 @@ const UpcomingFilms = () => {
 		<>
 			<h2>Upcoming Film Release for the UK </h2>
 			<FilmList films={films}></FilmList>
-			<button>Button to see more</button>
+			<a href='https://www.imdb.com/calendar/?region=gb'>
+				<button>Button to see more</button>
+			</a>
 		</>
 	);
 };
